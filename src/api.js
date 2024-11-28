@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API = axios.create({ baseURL: 'http://localhost:5000/api' });
+const API = axios.create({ baseURL: 'http://localhost:5003/api' });
 
 export const fetchInfluencers = () => API.get('/influencers');
 export const createInfluencer = (newInfluencer) =>

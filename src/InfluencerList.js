@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { fetchInfluencers, deleteInfluencer } from '../api';
+import { fetchInfluencers, deleteInfluencer } from './api';
 
 const InfluencerList = () => {
   const [influencers, setInfluencers] = useState([]);
